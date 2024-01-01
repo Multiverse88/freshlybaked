@@ -1,0 +1,30 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-custom {
+    background-image: url("/img/gg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* css hover text register */
+.one:hover span:last-child {
+    width: 100%;
+}
+
+/*sidebar css*/
+/* Only the scroll bar */
+::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.15);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
